@@ -1,7 +1,7 @@
 packer-devcloud2
 ================
 
-Packer settings to build devcloud2 for Cloudstack testing
+Packer settings to build devcloud2 for Cloudstack testing as Vagrant box.
 
 Box file is 632M. I followed all the documentation for creating this except I swapped eth0<->eth1 so eth0 could be NAT as vagrant seems to expect, leaving eth1 as host-only. Also im not sure that vagrant is setting promiscuous for eth1 to allow-all.
 
