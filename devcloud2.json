@@ -19,6 +19,7 @@
                 "netcfg/choose_interface=eth0 <wait>",
                 "<enter><wait>"
             ],
+            "vm_name": "devcloud2",
             "disk_size": 30000,
             "headless": true,
             "guest_os_type": "Debian",
